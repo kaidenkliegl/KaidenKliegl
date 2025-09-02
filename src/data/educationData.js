@@ -1,23 +1,17 @@
 export const educationData = [
     {
-        id: 1,
-        institution: 'Marble Hills Middle School',
-        course: 'Higher Secondary Education',
-        startYear: '2007',
-        endYear: '2015'
+      id: 1,
+      institution: 'Santa Rosa Junior College',
+      course: "Associate's Degree",
+      startYear: '2020',
+      endYear: '2022'
     },
     {
-        id: 2,
-        institution: 'Somerset School of Science',
-        course: 'Bachelor of Technology',
-        startYear: '2015',
-        endYear: '2019'
+      id: 2,
+      institution: 'App Academy',
+      course: 'Full-Stack Web Development',
+      startYear: '2024',
+      endYear: '2025'
     },
-    {
-        id: 3,
-        institution: 'Hawking University, Cambridge',
-        course: 'Master of Technology',
-        startYear: '2019',
-        endYear: 'Present'
-    },
-]
+  ];
+  

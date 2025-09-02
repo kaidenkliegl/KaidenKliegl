@@ -1,9 +1,11 @@
-import resume from '../assets/pdf/resume.pdf'
+import resume from "../assets/pdf/resume.pdf";
 
 export const headerData = {
-    name: 'Jane Doe',
-    title: "Web Developer",
-    desciption:"There wasn't a bird in the sky, but that was not what caught her attention. It was the clouds. The deep green that isn't the color of clouds, but came with these. She knew what was coming and she hoped she was prepared. ",
-    image: 'https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/landingImg.png',
-    resumePdf: resume
-}
+  name: "Kaiden Kliegl",
+  title: "Web Developer",
+  desciption:
+    "I'm a full-stack developer passionate about building web applications and learning new technologies. I enjoy creating projects that solve real problems and improving user experiences, while continuously expanding my skills in areas like React, Node.js, and AI.",
+  image:
+    "https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/landingImg.png",
+  resumePdf: resume,
+};

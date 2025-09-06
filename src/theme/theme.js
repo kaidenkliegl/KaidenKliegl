@@ -52,26 +52,36 @@ export const greenThemeDark = {
     contactsimg: contactsGreen
 }
 export const bwThemeLight = {
-    type: 'light',
-    primary: '#000000',
-    primary400: '#000000',
-    primary600: '#000000',
-    primary80: '#000000cc',
-    primary50: '#00000080',
-    primary30: '#0000004d',
-    secondary: '#EAEAEA',
-    secondary70: '#EAEAEAb3',
-    secondary50: '#EAEAEA80',
-    tertiary: '#212121',
-    tertiary80: '#212121cc',
-    tertiary70: '#212121b3',
-    tertiary50: '#21212180',
-    aboutimg1: bwThemeboy,
-    aboutimg2: bwThemegirl,
-    eduimg: eduBlack,
-    expimg: expBlack,
-    contactsimg: contactsBlack
-}
+  type: 'light',
+
+  // Primary colors (black shades)
+  primary: '#000000',
+  primary400: '#000000',
+  primary600: '#000000',
+  primary80: '#000000cc', // 80% opacity
+  primary50: '#00000080', // 50% opacity
+  primary30: '#0000004d', // 30% opacity
+
+  // Secondary colors (light gray shades)
+  secondary: '#EAEAEA',
+  secondary70: '#EAEAEAb3', // 70% opacity
+  secondary50: '#EAEAEA80', // 50% opacity
+
+  // Tertiary colors (text-related colors, softened)
+  tertiary: '#373737',       // Was #212121 / rgb(33,33,33)
+  tertiary80: '#373737cc',   // 80% opacity
+  tertiary70: '#373737b3',   // 70% opacity
+  tertiary50: '#37373780',   // 50% opacity
+
+  // Images
+  aboutimg1: bwThemeboy,
+  aboutimg2: bwThemegirl,
+  eduimg: eduBlack,
+  expimg: expBlack,
+  contactsimg: contactsBlack
+};
+
+  
 export const bwThemeDark = {
     type: 'dark',
     primary: '#B6B6B6',

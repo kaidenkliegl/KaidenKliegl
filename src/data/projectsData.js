@@ -11,11 +11,11 @@ import eight from '../assets/svg/projects/eight.svg'
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Employee Management',
-        projectDesc: 'This project aims to build an employee management system that consolidates all information of a company',
-        tags: ['React', 'CSS', 'Material Ui'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        projectName: 'TeeLogic',
+        projectDesc: 'This project is a full-stack golf tee-time management system that allows golfers to book, edit, and manage tee times.',
+        tags: ['React', 'CSS', 'Express'],
+        code: 'https://github.com/kaidenkliegl/TeeLogic',
+        demo: 'https://github.com/kaidenkliegl/TeeLogic',
         image: one
     },
     {

@@ -11,7 +11,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename="/developer-portfolio">  {/* 👈 set basename */}
+      <BrowserRouter basename="/KaidenKliegl">
       <ThemeContextProvider>
         <App />
       </ThemeContextProvider>
